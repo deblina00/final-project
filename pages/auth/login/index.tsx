@@ -72,7 +72,7 @@ const Login: React.FC = () => {
     });
     console.log(formData);
     reset();
-    router.push("/cms/list");
+    // router.push("/cms/list");
   };
 
   const handleLoginError = () => {
@@ -189,19 +189,6 @@ const Login: React.FC = () => {
                 Sign Up
               </Link>
             </Typography>
-
-            {/* <Button
-              variant="text"
-              fullWidth
-              style={{
-                color: "#000",
-                fontWeight: "bold",
-                textTransform: "none",
-              }}
-              onClick={handleLoginError}
-            >
-              Don’t have an account? Register here
-            </Button> */}
           </form>
         </Paper>
       </Grid>
