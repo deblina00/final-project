@@ -37,6 +37,11 @@ export interface dashboardProps extends IdashboardProps {
   user: IdashboardProps;
 }
 
+export interface profilemodalProps {
+  isOpen: boolean;
+  onClose: () => void;
+}
+
 export interface IOTpProps {
   email: string;
   otp: number;

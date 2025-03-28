@@ -76,6 +76,12 @@ export interface detailsProps extends IdetailsProps {
   user: IdetailsProps;
 }
 
+export interface detailmodalProps {
+  isOpen: boolean;
+  onClose: () => void;
+}
+
+
 export interface Product {
   _id: string;
   name: string;

@@ -8,8 +8,8 @@ export default function Footer() {
         py: 3,
         px: 2,
         mt: "auto",
-        bgcolor: "#123C69",
-        boxShadow: 4,
+        background: "linear-gradient(90deg, #0F172A 0%, #123C69 100%)",
+        boxShadow: "0px 4px 12px rgba(0,0,0,0.2)",
         textAlign: "center",
       }}
     >
